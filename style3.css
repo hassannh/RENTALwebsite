@@ -90,11 +90,11 @@ ul li{
     }
     
 } */
-@media screen 
+/* @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
-}
+} */
 
 .content{
     display: flex;
@@ -112,7 +112,7 @@ ul li{
     font-weight: bolder;
 }
 .cadre{
-    background-color: rgba(240, 248, 255, 0.249);
+    background-color: rgba(240, 248, 255, 0.059);
     height: 300px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -121,6 +121,7 @@ ul li{
     padding-top: 90PX;
     position: relative;
     top: 30px;
+    gap: 9%;
 
 
 }
@@ -145,7 +146,7 @@ ul li{
     height: 20%;
     position: absolute;
     right: 80ex;
-    top: 70px;
+    top: 60px;
 }
 footer {
     display: flex;
@@ -161,7 +162,26 @@ footer div{
     margin-right: 30px;
     margin-left: 40px;
     background-color: aliceblue;
-
+}
+.service_card{
+    background:#a2aab3fb ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid;
+    border-color: transparent;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:40px;
+    opacity: 0.9;
+}
+.card_info{
+    position: relative;
     
-    
+}
+.menu :hover{
+    background-color: beige;
+    /* background-color: transparent !important;
+    box-shadow: none !important; */
 }
